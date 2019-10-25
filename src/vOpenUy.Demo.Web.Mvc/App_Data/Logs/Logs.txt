@@ -1,0 +1,834 @@
+DEBUG 2019-10-22 08:59:05,308 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 08:59:05,736 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 08:59:05,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:05,826 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 08:59:06,022 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:06,022 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:06,022 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:06,022 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:07,025 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:10,209 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 08:59:10,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 08:59:10,373 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 08:59:10,401 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 08:59:10,422 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 08:59:11,046 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 08:59:11,521 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 08:59:11,662 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 08:59:11,662 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 08:59:11,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 08:59:11,683 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 08:59:11,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 08:59:11,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 08:59:11,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 08:59:11,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 08:59:11,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 08:59:11,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 08:59:11,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 08:59:22,457 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 08:59:22,458 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-22 08:59:22,758 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 346.3127ms 200 
+DEBUG 2019-10-22 08:59:28,683 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 08:59:28,711 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 08:59:28,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:28,744 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 08:59:28,828 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:28,828 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:28,828 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:28,828 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 08:59:29,195 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 08:59:29,732 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 08:59:29,778 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 08:59:29,791 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 08:59:29,797 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 08:59:29,802 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 08:59:29,864 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 08:59:29,895 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 08:59:29,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 08:59:29,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 08:59:29,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 08:59:29,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 08:59:29,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 08:59:34,996 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-10-22 08:59:35,574 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-10-22 08:59:35,590 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 600.2956ms 200 image/x-icon
+DEBUG 2019-10-22 09:03:54,450 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:03:54,615 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:03:54,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,671 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,672 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,676 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:54,689 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:03:54,965 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:03:54,965 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:03:54,965 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:03:54,965 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:03:55,901 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:03:58,592 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:03:58,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:03:58,821 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:03:58,891 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:03:58,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:03:59,649 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:04:00,096 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:04:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:04:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:04:00,243 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:04:00,245 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:04:00,246 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:04:00,246 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:04:00,246 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:04:00,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:04:00,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:04:00,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:04:00,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:04:11,222 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 09:04:11,222 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-22 09:04:11,492 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 281.7557ms 200 
+INFO  2019-10-22 09:04:22,903 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc)
+WARN  2019-10-22 09:04:24,137 [10   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-10-22 09:04:24,163 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-10-22 09:04:24,199 [10   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-10-22 09:04:24,279 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-10-22 09:04:24,293 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc) in 1368.8548ms
+INFO  2019-10-22 09:04:24,352 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-10-22 09:04:24,362 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13164.2879ms 302 
+INFO  2019-10-22 09:04:24,452 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:04:32,448 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-10-22 09:04:32,476 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.1352ms.
+INFO  2019-10-22 09:04:33,080 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-22 09:04:35,046 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 2082.7182ms.
+INFO  2019-10-22 09:04:35,068 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 10610.9939ms
+INFO  2019-10-22 09:04:35,124 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10770.869ms 200 text/html; charset=utf-8
+INFO  2019-10-22 09:04:35,169 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2019-10-22 09:04:35,178 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2019-10-22 09:04:35,187 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2019-10-22 09:04:35,200 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2019-10-22 09:04:35,208 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2019-10-22 09:04:35,214 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2019-10-22 09:04:35,329 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-10-22 09:04:35,339 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2019-10-22 09:04:35,344 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-10-22 09:04:35,348 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 171.4181ms 200 text/css
+INFO  2019-10-22 09:04:35,351 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 144.2654ms 200 text/css
+INFO  2019-10-22 09:04:35,355 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2019-10-22 09:04:35,358 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2019-10-22 09:04:35,363 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2019-10-22 09:04:35,365 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 125.8352ms 200 text/css
+INFO  2019-10-22 09:04:35,369 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167.846ms 200 text/css
+INFO  2019-10-22 09:04:35,378 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2019-10-22 09:04:35,385 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2019-10-22 09:04:35,389 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.9584ms 200 text/css
+INFO  2019-10-22 09:04:35,393 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2019-10-22 09:04:35,397 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.0229ms 200 text/css
+INFO  2019-10-22 09:04:35,400 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2019-10-22 09:04:35,404 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2019-10-22 09:04:35,407 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2019-10-22 09:04:35,411 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2019-10-22 09:04:35,416 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2019-10-22 09:04:35,423 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2019-10-22 09:04:35,428 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.2385ms 200 text/css
+INFO  2019-10-22 09:04:35,431 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.5376ms 200 application/javascript
+INFO  2019-10-22 09:04:35,435 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2019-10-22 09:04:35,440 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2019-10-22 09:04:35,444 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 253.7627ms 200 text/css
+INFO  2019-10-22 09:04:35,448 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2019-10-22 09:04:35,466 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2019-10-22 09:04:35,484 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2019-10-22 09:04:35,520 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2019-10-22 09:04:35,525 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.5015ms 200 text/css
+INFO  2019-10-22 09:04:35,529 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-10-22 09:04:35,532 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\css\style.css'
+INFO  2019-10-22 09:04:35,537 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.8883ms 200 text/css
+INFO  2019-10-22 09:04:35,539 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 351.6815ms 200 text/css
+INFO  2019-10-22 09:04:35,542 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2019-10-22 09:04:35,546 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2019-10-22 09:04:35,549 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.5667ms 200 application/javascript
+INFO  2019-10-22 09:04:35,552 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167.0135ms 200 text/css
+INFO  2019-10-22 09:04:35,556 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2019-10-22 09:04:35,560 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2019-10-22 09:04:35,565 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2019-10-22 09:04:35,569 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-10-22 09:04:35,582 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2019-10-22 09:04:35,589 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2019-10-22 09:04:35,594 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.2478ms 200 application/javascript
+INFO  2019-10-22 09:04:35,603 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8977ms 200 application/javascript
+INFO  2019-10-22 09:04:35,609 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2019-10-22 09:04:35,614 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-10-22 09:04:35,621 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-10-22 09:04:35,625 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2019-10-22 09:04:35,630 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-10-22 09:04:35,634 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.3724ms 200 application/javascript
+INFO  2019-10-22 09:04:35,641 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.8239ms 200 application/javascript
+INFO  2019-10-22 09:04:35,644 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2019-10-22 09:04:35,649 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2019-10-22 09:04:35,657 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2019-10-22 09:04:35,663 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.5661ms 200 application/javascript
+INFO  2019-10-22 09:04:35,665 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-10-22 09:04:35,669 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2019-10-22 09:04:35,675 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 132.9129ms 200 application/javascript
+INFO  2019-10-22 09:04:35,679 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-10-22 09:04:35,683 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2019-10-22 09:04:35,688 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-10-22 09:04:35,694 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 140.7057ms 200 application/javascript
+INFO  2019-10-22 09:04:35,698 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-10-22 09:04:35,702 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.7093ms 200 application/javascript
+INFO  2019-10-22 09:04:35,707 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.8744ms 200 application/javascript
+INFO  2019-10-22 09:04:35,711 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2019-10-22 09:04:35,715 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2019-10-22 09:04:35,719 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.3027ms 200 application/javascript
+INFO  2019-10-22 09:04:35,722 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-10-22 09:04:35,728 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=O1PBP4Nyx9H4srb9qdANX3fBcfaOQDwSriFashcAOnM  
+INFO  2019-10-22 09:04:35,733 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-10-22 09:04:35,743 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\js\admin.js'
+INFO  2019-10-22 09:04:35,752 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.0812ms 200 application/javascript
+INFO  2019-10-22 09:04:35,759 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.5865ms 200 application/javascript
+INFO  2019-10-22 09:04:35,764 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.7313ms 200 application/javascript
+INFO  2019-10-22 09:04:35,774 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637073318401000015  
+INFO  2019-10-22 09:04:35,780 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637073318749786261  
+INFO  2019-10-22 09:04:35,791 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637073318401000015  
+INFO  2019-10-22 09:04:35,805 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\js\main.js'
+INFO  2019-10-22 09:04:35,813 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2019-10-22 09:04:35,825 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.1694ms 200 application/javascript
+INFO  2019-10-22 09:04:35,830 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.5489ms 200 application/javascript
+INFO  2019-10-22 09:04:35,834 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2019-10-22 09:04:35,842 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2019-10-22 09:04:35,847 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-22 09:04:35,851 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.8092ms 200 application/javascript
+INFO  2019-10-22 09:04:35,858 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2019-10-22 09:04:35,862 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2019-10-22 09:04:35,867 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-22 09:04:35,884 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-10-22 09:04:35,904 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2019-10-22 09:04:35,912 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-22 09:04:35,915 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2019-10-22 09:04:35,925 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.9843ms 200 application/javascript
+INFO  2019-10-22 09:04:35,974 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.9191ms 200 font/woff2
+INFO  2019-10-22 09:04:35,984 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-22 09:04:35,990 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2019-10-22 09:04:35,998 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 129.8819ms 200 application/javascript
+INFO  2019-10-22 09:04:36,005 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 223.58ms 200 application/javascript
+INFO  2019-10-22 09:04:36,016 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2019-10-22 09:04:36,024 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-10-22 09:04:36,030 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2019-10-22 09:04:36,040 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2019-10-22 09:04:36,050 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.0283ms 200 font/woff2
+INFO  2019-10-22 09:04:36,057 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.9594ms 200 font/woff2
+INFO  2019-10-22 09:04:36,070 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-10-22 09:04:36,079 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.7438ms 200 image/png
+INFO  2019-10-22 09:04:36,141 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-22 09:04:36,305 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 384.9953ms.
+INFO  2019-10-22 09:04:36,325 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:04:36,340 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 462.0328ms
+INFO  2019-10-22 09:04:36,345 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 580.1815ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:04:36,462 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 316.172ms.
+INFO  2019-10-22 09:04:36,468 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-22 09:04:36,474 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 483.3576ms
+INFO  2019-10-22 09:04:36,481 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 713.8793ms 200 application/x-javascript
+INFO  2019-10-22 09:04:36,529 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-10-22 09:04:36,539 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-10-22 09:04:36,545 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.6086ms 200 image/x-icon
+DEBUG 2019-10-22 09:05:24,770 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:05:25,041 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:05:25,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,127 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,128 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,135 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,136 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,137 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:25,147 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:05:25,340 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:05:25,340 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:05:25,340 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:05:25,340 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:05:26,351 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:05:29,148 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:05:29,251 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:05:29,289 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:05:29,307 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:05:29,326 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:05:29,987 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:05:30,481 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:05:30,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:05:30,614 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:05:30,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:05:30,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:05:30,635 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:05:30,636 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:05:30,636 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:05:30,636 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:05:30,636 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:05:30,637 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:05:30,637 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:05:42,766 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-22 09:05:42,766 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 09:05:43,059 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 325.8422ms 200 
+WARN  2019-10-22 09:05:43,080 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'es-ES, es'.
+WARN  2019-10-22 09:05:43,084 [9    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'es-ES, es'.
+DEBUG 2019-10-22 09:06:02,803 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:06:02,855 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:06:02,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,956 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,958 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,971 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:02,993 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:06:03,312 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:06:03,312 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:06:03,312 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:06:03,313 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:06:04,501 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:06:05,980 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:06:06,152 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:06:06,242 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:06:06,261 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:06:06,280 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:06:06,567 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:06:06,632 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:06:06,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:06:06,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:06:06,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:06:06,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:06:06,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:06:06,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:06:06,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:06:06,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:06:06,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:06:06,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:06:06,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:06:14,540 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+WARN  2019-10-22 09:06:14,733 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'es-ES, es'.
+WARN  2019-10-22 09:06:14,734 [10   ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'es-ES, es'.
+INFO  2019-10-22 09:06:14,941 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-10-22 09:06:14,957 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 430.7998ms 200 image/x-icon
+DEBUG 2019-10-22 09:08:26,652 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:08:26,876 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:08:26,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:26,961 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:08:27,337 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:08:27,337 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:08:27,337 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:08:27,337 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:08:28,282 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:08:30,717 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:08:30,828 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:08:30,867 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:08:30,886 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:08:30,944 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:08:31,431 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:08:31,773 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:08:31,887 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:08:31,887 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:08:31,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:08:31,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:08:31,905 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:08:31,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:08:31,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:08:31,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:08:31,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:08:31,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:08:31,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:08:44,022 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-10-22 09:08:44,022 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 09:08:44,022 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+WARN  2019-10-22 09:08:44,334 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'es-ES, es'.
+WARN  2019-10-22 09:08:44,334 [5    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported cultures 'es-ES, es'.
+WARN  2019-10-22 09:08:44,367 [7    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'es-ES, es'.
+WARN  2019-10-22 09:08:44,369 [5    ] calization.RequestLocalizationMiddleware - AcceptLanguageHeaderRequestCultureProvider returned the following unsupported UI Cultures 'es-ES, es'.
+INFO  2019-10-22 09:08:44,376 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 327.4822ms 200 
+INFO  2019-10-22 09:08:44,646 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-10-22 09:08:44,671 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 679.5674ms 200 image/x-icon
+DEBUG 2019-10-22 09:09:17,378 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:09:17,624 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:09:17,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,716 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,717 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:17,727 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:09:17,958 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:09:17,958 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:09:17,958 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:09:17,958 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:09:19,054 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:09:21,627 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:09:21,699 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:09:21,715 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:09:21,722 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:09:21,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:09:22,279 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:09:22,906 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:09:23,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:09:23,018 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:09:23,032 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:09:23,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:09:23,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:09:23,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:09:23,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:09:23,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:09:23,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:09:23,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:09:23,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:09:36,450 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 09:09:36,450 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-22 09:09:36,735 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 304.1885ms 200 
+INFO  2019-10-22 09:09:49,680 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc)
+WARN  2019-10-22 09:09:50,401 [12   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-10-22 09:09:50,423 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-10-22 09:09:50,455 [12   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-10-22 09:09:50,558 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-10-22 09:09:50,583 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc) in 878.2415ms
+INFO  2019-10-22 09:09:50,665 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-10-22 09:09:50,690 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14270.5662ms 302 
+INFO  2019-10-22 09:09:50,787 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:10:01,353 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-10-22 09:10:01,384 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 21.3516ms.
+INFO  2019-10-22 09:10:02,453 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-22 09:10:04,583 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 2258.8066ms.
+INFO  2019-10-22 09:10:04,610 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 13817.447ms
+INFO  2019-10-22 09:10:04,666 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14005.3148ms 200 text/html; charset=utf-8
+INFO  2019-10-22 09:10:04,868 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637073321629113582  
+INFO  2019-10-22 09:10:04,876 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637073322045109173  
+INFO  2019-10-22 09:10:04,883 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637073321629113582  
+INFO  2019-10-22 09:10:04,909 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-22 09:10:04,933 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-22 09:10:04,986 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-22 09:10:05,024 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-22 09:10:05,030 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.103ms 200 application/javascript
+INFO  2019-10-22 09:10:05,135 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-22 09:10:05,593 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 603.6791ms.
+INFO  2019-10-22 09:10:05,606 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:10:05,617 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 704.5383ms
+INFO  2019-10-22 09:10:05,622 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 755.702ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:10:05,653 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 514.4388ms.
+INFO  2019-10-22 09:10:05,659 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-22 09:10:05,667 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 726.2802ms
+INFO  2019-10-22 09:10:05,676 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 859.0486ms 200 application/x-javascript
+INFO  2019-10-22 09:10:35,487 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2019-10-22 09:10:35,520 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:10:35,780 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (vOpenUy.Demo.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+WARN  2019-10-22 09:10:36,528 [9    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+INFO  2019-10-22 09:10:37,999 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2019-10-22 09:10:38,350 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:10:38,486 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (vOpenUy.Demo.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+WARN  2019-10-22 09:10:38,840 [12   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-10-22 09:10:40,476 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at vOpenUy.Demo.Web.Controllers.AccountController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 127
+   at vOpenUy.Demo.Web.Controllers.AccountController.Login(LoginViewModel loginModel, String returnUrl, String returnUrlHash) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 104
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-10-22 09:10:40,476 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at vOpenUy.Demo.Web.Controllers.AccountController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 127
+   at vOpenUy.Demo.Web.Controllers.AccountController.Login(LoginViewModel loginModel, String returnUrl, String returnUrlHash) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 104
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-10-22 09:10:40,535 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-10-22 09:10:40,539 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-10-22 09:10:40,595 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 2239.9616ms
+INFO  2019-10-22 09:10:40,600 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 5070.8145ms
+INFO  2019-10-22 09:10:40,604 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2605.2203ms 500 application/json; charset=utf-8
+INFO  2019-10-22 09:10:40,608 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5118.9149ms 500 application/json; charset=utf-8
+DEBUG 2019-10-22 09:29:32,883 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:29:33,056 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:29:33,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,127 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,129 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,130 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,131 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,132 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,133 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,134 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:33,142 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:29:33,379 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:29:33,380 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:29:33,380 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:29:33,380 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:29:34,542 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:29:37,789 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:29:37,946 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:29:37,993 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:29:38,024 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:29:38,131 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:29:38,746 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:29:39,203 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:29:39,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:29:39,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:29:39,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:29:39,299 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:29:39,300 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:29:39,300 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:29:39,300 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:29:39,301 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:29:39,301 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:29:39,301 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:29:39,301 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:29:51,187 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-22 09:29:51,187 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 09:29:51,409 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 228.5831ms 200 
+INFO  2019-10-22 09:30:05,133 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc)
+WARN  2019-10-22 09:30:06,267 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-10-22 09:30:06,297 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-10-22 09:30:06,352 [6    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-10-22 09:30:06,470 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-10-22 09:30:06,494 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc) in 1337.3976ms
+INFO  2019-10-22 09:30:06,586 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-10-22 09:30:06,611 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15443.2978ms 302 
+INFO  2019-10-22 09:30:06,834 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:30:18,291 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-10-22 09:30:18,323 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 22.5872ms.
+INFO  2019-10-22 09:30:19,280 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-22 09:30:21,254 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 2128.0292ms.
+INFO  2019-10-22 09:30:21,284 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 14442.0509ms
+INFO  2019-10-22 09:30:21,336 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14754.9737ms 200 text/html; charset=utf-8
+INFO  2019-10-22 09:30:21,424 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637073333792061560  
+INFO  2019-10-22 09:30:21,462 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637073334211773478  
+INFO  2019-10-22 09:30:21,464 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637073333792061560  
+INFO  2019-10-22 09:30:21,481 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-22 09:30:21,497 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-22 09:30:21,569 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-22 09:30:21,602 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-22 09:30:21,605 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.1752ms 200 application/javascript
+INFO  2019-10-22 09:30:21,689 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-22 09:30:22,120 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 546.8047ms.
+INFO  2019-10-22 09:30:22,135 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:30:22,152 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 648.7696ms
+INFO  2019-10-22 09:30:22,157 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 695.6299ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:30:22,196 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 503.0941ms.
+INFO  2019-10-22 09:30:22,203 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-22 09:30:22,209 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 722.1783ms
+INFO  2019-10-22 09:30:22,213 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 788.7657ms 200 application/x-javascript
+INFO  2019-10-22 09:30:53,410 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/TenantChangeModal application/html 0
+INFO  2019-10-22 09:30:53,435 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "TenantChangeModal", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.TenantChangeModal (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:30:53,576 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.TenantChangeModal (vOpenUy.Demo.Web.Mvc) - Validation state: Valid
+INFO  2019-10-22 09:30:53,588 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.TenantChangeModal (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.0443ms.
+INFO  2019-10-22 09:30:53,759 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2019-10-22 09:30:53,883 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml executed in 156.6429ms.
+INFO  2019-10-22 09:30:53,889 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.TenantChangeModal (vOpenUy.Demo.Web.Mvc) in 448.4971ms
+INFO  2019-10-22 09:30:53,898 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 485.1333ms 200 text/html; charset=utf-8
+DEBUG 2019-10-22 09:31:50,651 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-22 09:31:50,809 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-22 09:31:50,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.Web.Startup.DemoWebMvcModule, vOpenUy.Demo.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,871 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoWebCoreModule, vOpenUy.Demo.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoApplicationModule, vOpenUy.Demo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,872 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.DemoCoreModule, vOpenUy.Demo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: vOpenUy.Demo.EntityFrameworkCore.DemoEntityFrameworkModule, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,877 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:50,886 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-22 09:31:51,090 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:31:51,090 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:31:51,090 [1    ] o.Configuration.LanguageManagementConfig - Converted Demo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:31:51,090 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-22 09:31:52,031 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: vOpenUy.Demo.EntityFrameworkCore.DemoDbContext, vOpenUy.Demo.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-22 09:31:54,742 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-22 09:31:54,866 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-22 09:31:54,941 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-22 09:31:54,954 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Demo
+DEBUG 2019-10-22 09:31:54,970 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-22 09:31:55,619 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-22 09:31:56,089 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-22 09:31:56,245 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-10-22 09:31:56,245 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-22 09:31:56,265 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.CreateUserDto
+DEBUG 2019-10-22 09:31:56,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Users.Dto.UserDto
+DEBUG 2019-10-22 09:31:56,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-22 09:31:56,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-22 09:31:56,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Roles.Dto.PermissionDto
+DEBUG 2019-10-22 09:31:56,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-22 09:31:56,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-22 09:31:56,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-22 09:31:56,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - vOpenUy.Demo.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-22 09:32:07,031 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-22 09:32:07,031 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-22 09:32:07,286 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 266.6587ms 200 
+INFO  2019-10-22 09:32:19,004 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc)
+WARN  2019-10-22 09:32:19,938 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-10-22 09:32:19,965 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-10-22 09:32:20,003 [6    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-10-22 09:32:20,068 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-10-22 09:32:20,082 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.HomeController.Index (vOpenUy.Demo.Web.Mvc) in 1060.2343ms
+INFO  2019-10-22 09:32:20,131 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-10-22 09:32:20,147 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13142.3939ms 302 
+INFO  2019-10-22 09:32:20,263 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:32:28,392 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-10-22 09:32:28,442 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 32.0672ms.
+INFO  2019-10-22 09:32:29,347 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-22 09:32:31,059 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1891.0065ms.
+INFO  2019-10-22 09:32:31,078 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 10811.0257ms
+INFO  2019-10-22 09:32:31,117 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10989.7665ms 200 text/html; charset=utf-8
+INFO  2019-10-22 09:32:31,171 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637073335160937430  
+INFO  2019-10-22 09:32:31,185 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637073335160937430  
+INFO  2019-10-22 09:32:31,190 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637073335509890954  
+INFO  2019-10-22 09:32:31,214 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-22 09:32:31,231 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-22 09:32:31,232 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-22 09:32:31,273 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-22 09:32:31,276 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.5389ms 200 application/javascript
+INFO  2019-10-22 09:32:31,297 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-22 09:32:31,470 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 236.4869ms.
+INFO  2019-10-22 09:32:31,484 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:32:31,495 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 277.4334ms
+INFO  2019-10-22 09:32:31,501 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 316.0353ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:32:31,542 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 242.175ms.
+INFO  2019-10-22 09:32:31,549 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-22 09:32:31,554 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 317.1742ms
+INFO  2019-10-22 09:32:31,557 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 386.9495ms 200 application/x-javascript
+INFO  2019-10-22 09:32:45,418 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2019-10-22 09:32:45,449 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:32:45,771 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) with arguments (vOpenUy.Demo.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+WARN  2019-10-22 09:32:46,539 [9    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2019-10-22 09:32:48,679 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at vOpenUy.Demo.Web.Controllers.AccountController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 127
+   at vOpenUy.Demo.Web.Controllers.AccountController.Login(LoginViewModel loginModel, String returnUrl, String returnUrlHash) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 104
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-10-22 09:32:48,753 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-10-22 09:32:48,806 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Login (vOpenUy.Demo.Web.Mvc) in 3352.9574ms
+INFO  2019-10-22 09:32:48,811 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3392.9477ms 500 application/json; charset=utf-8
+INFO  2019-10-22 09:35:25,686 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/register  
+INFO  2019-10-22 09:35:25,709 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Register", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:35:25,731 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc) - Validation state: Valid
+INFO  2019-10-22 09:35:25,771 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 33.9883ms.
+INFO  2019-10-22 09:35:25,863 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Register.
+INFO  2019-10-22 09:35:26,089 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Register executed in 287.8664ms.
+INFO  2019-10-22 09:35:26,098 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc) in 380.9999ms
+INFO  2019-10-22 09:35:26,115 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 425.3664ms 200 text/html; charset=utf-8
+INFO  2019-10-22 09:35:26,275 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637073335160937430  
+INFO  2019-10-22 09:35:26,295 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-22 09:35:26,302 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-22 09:35:26,306 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.5343ms.
+INFO  2019-10-22 09:35:26,310 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-22 09:35:26,314 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 15.2645ms
+INFO  2019-10-22 09:35:26,322 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.7829ms 200 application/x-javascript
+INFO  2019-10-22 09:35:26,328 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Register.js?v=2X4JxwzJzLVKDakDG4NN5our8R0VyW_Ceutt7u02N0s  
+INFO  2019-10-22 09:35:26,333 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637073335160937430  
+INFO  2019-10-22 09:35:26,337 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637073337260800390  
+INFO  2019-10-22 09:35:26,344 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Register.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Account\Register.js'
+INFO  2019-10-22 09:35:26,348 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-22 09:35:26,356 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.464ms 200 application/javascript
+INFO  2019-10-22 09:35:26,363 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.891ms 200 application/javascript
+INFO  2019-10-22 09:35:26,369 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-22 09:35:26,376 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-22 09:35:26,433 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 52.4163ms.
+INFO  2019-10-22 09:35:26,438 [27   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:35:26,446 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 69.3001ms
+INFO  2019-10-22 09:35:26,455 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.8236ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-22 09:35:48,584 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Register application/x-www-form-urlencoded 334
+INFO  2019-10-22 09:35:48,610 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Register", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:35:48,654 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc) with arguments (vOpenUy.Demo.Web.Models.Account.RegisterViewModel) - Validation state: Valid
+ERROR 2019-10-22 09:35:49,176 [22   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at vOpenUy.Demo.Authorization.Users.UserRegistrationManager.CheckForTenant() in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at vOpenUy.Demo.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at vOpenUy.Demo.Web.Controllers.AccountController.Register(RegisterViewModel model) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-10-22 09:35:49,186 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc) in 571.5372ms
+ERROR 2019-10-22 09:35:49,542 [22   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Can not register host users!
+   at vOpenUy.Demo.Authorization.Users.UserRegistrationManager.CheckForTenant() in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at vOpenUy.Demo.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at vOpenUy.Demo.Web.Controllers.AccountController.Register(RegisterViewModel model) in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\Controllers\AccountController.cs:line 183
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at vOpenUy.Demo.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2019-10-22 09:35:49,832 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1242.0362ms 500 text/html; charset=utf-8
+INFO  2019-10-22 09:35:54,278 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/register  
+INFO  2019-10-22 09:35:54,289 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Register", controller = "Account", area = ""}. Executing action vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc)
+INFO  2019-10-22 09:35:54,313 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc) - Validation state: Valid
+INFO  2019-10-22 09:35:54,322 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5031ms.
+INFO  2019-10-22 09:35:54,364 [31   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Register.
+INFO  2019-10-22 09:35:54,427 [31   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Register executed in 62.1743ms.
+INFO  2019-10-22 09:35:54,437 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action vOpenUy.Demo.Web.Controllers.AccountController.Register (vOpenUy.Demo.Web.Mvc) in 138.7481ms
+INFO  2019-10-22 09:35:54,452 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 164.6575ms 200 text/html; charset=utf-8
+INFO  2019-10-22 09:35:54,548 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637073337544161293  
+INFO  2019-10-22 09:35:54,574 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\sources\vOpen\vOpenUy.Demo\4.8.0\aspnet-core\src\vOpenUy.Demo.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-22 09:35:54,583 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2177ms 200 application/javascript
